@@ -1,0 +1,81 @@
+# Ignore file system metadata
+.DS_Store
+Thumbs.db
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore executables
+*.out
+*.exe
+
+# Ignore IDE-specific files and directories
+
+# Visual Studio Code
+.vscode/
+
+# Xcode
+*.xcworkspace
+*.xcodeproj/
+.DS_Store
+*/build/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# NetBeans
+nbproject/
+*.nbbuild/
+*.nbi/
+*.nbattrs
+*.classgroup
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+
+# Geany
+*.gproject
+*.gscript
+*.priv
+
+# TextMate
+*.tmproj
+*.tmproject
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CTestTestfile.cmake
+Makefile
+
+# Autotools
+autom4te.cache/
+configure
+config.log
+config.status
+*.in
+
+# QTCreator
+*.pro.user
+*.pro.user.*
+
+# Eclipse CDT
+.ctags
+.cproject
